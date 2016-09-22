@@ -1,0 +1,75 @@
+1 ################### 
+2 # compiled source # 
+3 ################### 
+4 *.com 
+5 *.class 
+6 *.dll 
+7 *.exe 
+8 *.pdb 
+9 *.dll.config 
+10 *.cache 
+11 *.suo 
+12 # Include dlls if they’re in the NuGet packages directory 
+13 !/packages/*/lib/*.dll 
+14 !/packages/*/lib/*/*.dll 
+15 # Include dlls if they're in the CommonReferences directory 
+16 !*CommonReferences/*.dll 
+17 #################### 
+18 # VS Upgrade stuff # 
+19 #################### 
+20 UpgradeLog.XML 
+21 _UpgradeReport_Files/ 
+22 ############### 
+23 # Directories # 
+24 ############### 
+25 bin/ 
+26 obj/ 
+27 TestResults/ 
+28 ################### 
+29 # Web publish log # 
+30 ################### 
+31 *.Publish.xml 
+32 ############# 
+33 # Resharper # 
+34 ############# 
+35 /_ReSharper.* 
+36 *.ReSharper.* 
+37 ############ 
+38 # Packages # 
+39 ############ 
+40 # it’s better to unpack these files and commit the raw source 
+41 # git has its own built in compression methods 
+42 *.7z 
+43 *.dmg 
+44 *.gz 
+45 *.iso 
+46 *.jar 
+47 *.rar 
+48 *.tar 
+49 *.zip 
+50 ###################### 
+51 # Logs and databases # 
+52 ###################### 
+53 *.log 
+54 *.sqlite 
+55 # OS generated files # 
+56 ###################### 
+57 .DS_Store? 
+58 ehthumbs.db 
+59 Icon? 
+60 Thumbs.db 
+61 [Bb]in 
+62 [Oo]bj 
+63 [Tt]est[Rr]esults 
+64 *.suo 
+65 *.user 
+66 *.[Cc]ache 
+67 *[Rr]esharper* 
+68 packages 
+69 NuGet.exe 
+70 _[Ss]cripts 
+71 *.exe 
+72 *.dll 
+73 *.nupkg 
+74 *.ncrunchsolution 
+75 *.dot[Cc]over 
