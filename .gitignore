@@ -22,9 +22,9 @@
 22 ############### 
 23 # Directories # 
 24 ############### 
-25 bin/ 
-26 obj/ 
-27 TestResults/ 
+25 WebApp/bin/
+26 WebApp/obj/
+27 WebApp/TestResults/ 
 28 ################### 
 29 # Web publish log # 
 30 ################### 
