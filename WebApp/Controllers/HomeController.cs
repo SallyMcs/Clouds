@@ -23,5 +23,13 @@ namespace WebApp.Controllers
         {
             return View();
         }
+        public ActionResult Catalogue()
+        {
+            return View();
+        }
+        public ActionResult ProductDetails()
+        {
+            return View();
+        }
     }
 }
