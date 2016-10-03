@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApp.Models;
+
 
 namespace WebApp.Controllers
 {
@@ -13,13 +15,13 @@ namespace WebApp.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult AboutUs()
         {
            
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult ContactUs()
         {
             return View();
         }
@@ -29,7 +31,11 @@ namespace WebApp.Controllers
         }
         public ActionResult ProductDetails()
         {
-            return View();
+            Product Pro = new Product();
+            Pro.MyProducts = "Licences, Salesforce training";
+            Pro.Price = 100;
+            return View( Pro);
         }
+     
     }
 }
