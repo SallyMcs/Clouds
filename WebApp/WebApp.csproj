@@ -176,6 +176,12 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\images.jpg" />
+    <Content Include="Images\images1\App cloud.jpg" />
+    <Content Include="Images\images1\inevitable-salesforce.jpg" />
+    <Content Include="Images\images1\marketing-cloud-solution.jpg" />
+    <Content Include="Images\images1\Sales cloud.jpg" />
+    <Content Include="Images\images1\Salesforce-Community-Cloud-v2-1500x1500.png" />
+    <Content Include="Images\images1\service-cloud.jpg" />
     <Content Include="Images\sky.jpg" />
     <Content Include="Images\sky2.jpg" />
     <Content Include="Images\sky3.jpg" />
